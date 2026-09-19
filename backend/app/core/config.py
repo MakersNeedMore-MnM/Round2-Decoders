@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     GOOGLE_CLIENT_ID: str = ""
     GOOGLE_CLIENT_SECRET: str = ""
     GOOGLE_REDIRECT_URI: str = "https://backend-r7rv5g128-nikita-santosh-mishras-projects.vercel.app/auth/google/callback"
-    FRONTEND_URL: str = "https://prospectiq-pklbvtbhj-nikita-santosh-mishras-projects.vercel.app"
+    FRONTEND_URL: str = "https://prospectiq-a32rhkufe-nikita-santosh-mishras-projects.vercel.app"
     
     APPCONNECTOR_API_KEY: str = ""
     APPCONNECTOR_BASE_URL: str = "https://api.appconnector.pro"
