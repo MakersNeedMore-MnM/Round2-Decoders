@@ -29,7 +29,7 @@ dependencies = [
 
     "python-jose==3.5.0",
     "pwdlib==0.3.0",
-
+    "argon2-cffi==25.1.0",
     "python-multipart==0.0.32",
     "email-validator==2.3.0",
 
