@@ -2,9 +2,42 @@
 name = "round2-decoders-backend"
 version = "0.1.0"
 requires-python = ">=3.12"
+
 dependencies = [
     "fastapi==0.141.1",
+    "pydantic==2.13.4",
     "pydantic-settings==2.14.2",
+
+    "SQLAlchemy==2.0.51",
+    "psycopg2-binary==2.9.12",
+    "alembic==1.18.5",
+
+    "loguru==0.7.3",
+
+    "groq==1.6.0",
+    "google-genai==2.16.0",
+    "google-auth==2.56.2",
+    "google-auth-oauthlib==1.4.0",
+    "google-api-python-client==2.198.0",
+
+    "httpx==0.28.1",
+
+    "tavily-python==0.7.27",
+
+    "requests==2.34.2",
+    "beautifulsoup4==4.15.0",
+
+    "python-jose==3.5.0",
+    "pwdlib==0.3.0",
+
+    "python-multipart==0.0.32",
+    "email-validator==2.3.0",
+
+    "PyMuPDF==1.28.0",
+    "pandas==3.0.5",
+    "python-docx==1.2.0",
+
+    "python-dotenv==1.2.2"
 ]
 
 [tool.vercel]
