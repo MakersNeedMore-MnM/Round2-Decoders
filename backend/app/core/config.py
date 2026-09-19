@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     OPENROUTER_API_KEY: str = ""
     GOOGLE_CLIENT_ID: str = ""
     GOOGLE_CLIENT_SECRET: str = ""
-    GOOGLE_REDIRECT_URI: str = "https://backend-r7rv5g128-nikita-santosh-mishras-projects.vercel.app/auth/google/callback"
+    GOOGLE_REDIRECT_URI: str = "https://backend-beryl-three-54.vercel.app/auth/google/callback"
     FRONTEND_URL: str = "https://prospectiq-ivory.vercel.app"
     
     APPCONNECTOR_API_KEY: str = ""
