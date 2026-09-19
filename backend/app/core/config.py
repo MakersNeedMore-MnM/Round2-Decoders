@@ -20,8 +20,8 @@ class Settings(BaseSettings):
     OPENROUTER_API_KEY: str = ""
     GOOGLE_CLIENT_ID: str = ""
     GOOGLE_CLIENT_SECRET: str = ""
-    GOOGLE_REDIRECT_URI: str = "http://localhost:8000/auth/google/callback"
-    FRONTEND_URL: str = "http://localhost:3000"
+    GOOGLE_REDIRECT_URI: str = "https://backend-r7rv5g128-nikita-santosh-mishras-projects.vercel.app/auth/google/callback"
+    FRONTEND_URL: str = "https://prospectiq-pklbvtbhj-nikita-santosh-mishras-projects.vercel.app"
     
     APPCONNECTOR_API_KEY: str = ""
     APPCONNECTOR_BASE_URL: str = "https://api.appconnector.pro"

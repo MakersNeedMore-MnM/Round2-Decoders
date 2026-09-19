@@ -7,7 +7,7 @@
  * for live calls only requires editing the individual service file.
  */
 
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "https://backend-r7rv5g128-nikita-santosh-mishras-projects.vercel.app";
 
 export class ApiError extends Error {
   status: number;

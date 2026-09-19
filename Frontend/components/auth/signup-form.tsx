@@ -32,7 +32,7 @@ export function SignupForm() {
       } else {
         setError(
           "Could not reach the server. Is the backend running at " +
-            (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000") +
+            (process.env.NEXT_PUBLIC_API_URL ?? "https://backend-r7rv5g128-nikita-santosh-mishras-projects.vercel.app") +
             "?",
         );
       }
