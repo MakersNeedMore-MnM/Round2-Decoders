@@ -51,6 +51,7 @@ origins = [
     # Vercel Frontend (current production)
     "https://prospectiq-ivory.vercel.app",
     "https://prospectiq-a32rhkufe-nikita-santosh-mishras-projects.vercel.app",
+    "https://prospectiq-6x9thefww-nikita-santosh-mishras-projects.vercel.app",
 
     # Legacy Vercel Frontend
     "https://sales-agent-ai-jet.vercel.app",
