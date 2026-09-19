@@ -49,6 +49,7 @@ origins = [
     "http://127.0.0.1:3000",
 
     # Vercel Frontend (current production)
+    "https://prospectiq-ivory.vercel.app",
     "https://prospectiq-a32rhkufe-nikita-santosh-mishras-projects.vercel.app",
 
     # Legacy Vercel Frontend
