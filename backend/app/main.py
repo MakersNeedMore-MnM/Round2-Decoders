@@ -52,8 +52,8 @@ origins = [
     "https://prospectiq-ivory.vercel.app/",
 
     # Preview deployments
-    "https://sales-agent-csgz0v8qi-gaurav88s-projects.vercel.app/",
-    "https://sales-agent-ai-git-main-gaurav88s-projects.vercel.app",
+    "https://prospectiq-nbw4ntl6u-nikita-santosh-mishras-projects.vercel.app/",
+    "https://prospectiq-git-main-nikita-santosh-mishras-projects.vercel.app/",
 ]
 
 app.add_middleware(
