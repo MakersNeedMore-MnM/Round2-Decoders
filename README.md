@@ -3,6 +3,27 @@
 
 ![ProspectIQ](image.png)
 
+---
+
+## Problem Statement
+
+Enterprise sales teams often have to work with scattered information from company websites, research notes, news, business updates, and stakeholder data. Manually converting this information into a reliable sales strategy is time-consuming and can lead to generic outreach or unsupported assumptions.
+
+The problem is to build an AI-powered system that can:
+
+- Research and understand a target company from available information.
+- Identify relevant decision-makers, pain points, and buying signals.
+- Determine buyer persona and purchase intent.
+- Generate an evidence-backed sales strategy.
+- Verify AI-generated claims against the underlying evidence.
+- Recommend an appropriate outreach purpose based on account evidence.
+- Keep a human in control before any outreach is sent.
+- Maintain an audit trail of the analysis and decisions.
+
+**ProspectIQ addresses this by combining a supervised multi-agent architecture with evidence verification and human approval, turning scattered account information into an actionable and traceable sales strategy.**
+
+---
+
 ProspectIQ turns scattered company research into an evidence-backed, human-approved
 outreach plan. A supervised multi-agent pipeline ingests whatever you give it — a
 company brief, notes, a website — extracts structured knowledge, builds a buyer
@@ -198,6 +219,42 @@ NEXT_PUBLIC_GOOGLE_CLIENT_ID=
 ```
 
 ---
+
+## Screenshots & Demo
+
+The ProspectIQ interface includes:
+
+- **Workspace** — interact with the AI Supervisor and monitor the analysis process.
+- **Executive Brief** — view the generated account intelligence and sales insights.
+- **Accounts Dashboard** — review analyzed companies and their intelligence.
+- **Relationship Graph** — visualize relationships between companies and stakeholders.
+- **Recommendation Center** — review evidence-backed outreach purpose recommendations.
+- **Outreach Queue** — review, edit, approve, and send outreach drafts.
+- **Audit Trail** — trace analysis steps, decisions, and supporting evidence.
+
+### Demo Flow
+
+```text
+Company / Account Input
+        ↓
+Research & Knowledge Extraction
+        ↓
+Buyer Persona
+        ↓
+Intent Analysis
+        ↓
+Sales Strategy
+        ↓
+Guardrail Evidence Verification
+        ↓
+Outreach Recommendation
+        ↓
+Human Approval
+        ↓
+Gmail Outreach
+        ↓
+Audit Trail```
+
 
 ## Current status
 
