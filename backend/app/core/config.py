@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     APP_NAME: str = "ProspectIQ"
     APP_VERSION: str = "0.1.0"
 
-    DEBUG: bool = False
+    DEBUG: bool = True
 
     HOST: str = "127.0.0.1"
     PORT: int = 8000
@@ -20,8 +20,8 @@ class Settings(BaseSettings):
     OPENROUTER_API_KEY: str = ""
     GOOGLE_CLIENT_ID: str = ""
     GOOGLE_CLIENT_SECRET: str = ""
-    GOOGLE_REDIRECT_URI: str = "https://backend-beryl-three-54.vercel.app/auth/google/callback"
-    FRONTEND_URL: str = "https://prospectiq-6x9thefww-nikita-santosh-mishras-projects.vercel.app"
+    GOOGLE_REDIRECT_URI: str = "http://localhost:8000/auth/google/callback"
+    FRONTEND_URL: str = "http://localhost:3000"
     
     APPCONNECTOR_API_KEY: str = ""
     APPCONNECTOR_BASE_URL: str = "https://api.appconnector.pro"

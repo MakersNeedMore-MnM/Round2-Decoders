@@ -48,16 +48,11 @@ origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 
-    # Vercel Frontend (current production)
-    "https://prospectiq-ivory.vercel.app",
-    "https://prospectiq-a32rhkufe-nikita-santosh-mishras-projects.vercel.app",
-    "https://prospectiq-6x9thefww-nikita-santosh-mishras-projects.vercel.app",
-
-    # Legacy Vercel Frontend
+    # Vercel Frontend
     "https://sales-agent-ai-jet.vercel.app",
 
     # Preview deployments
-    "https://sales-agent-csgz0v8qi-gaurav88s-projects.vercel.app",
+    "https://sales-agent-csgz0v8qi-gaurav88s-projects.vercel.app/",
     "https://sales-agent-ai-git-main-gaurav88s-projects.vercel.app",
 ]
 

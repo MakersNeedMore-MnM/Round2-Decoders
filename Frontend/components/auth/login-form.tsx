@@ -45,13 +45,13 @@ export function LoginForm() {
             ? "Incorrect email or password."
             : err.message || "Login failed. Please try again.",
         );
-} else {
-            setError(
-              "Could not reach the server. Is the backend running at " +
-                (process.env.NEXT_PUBLIC_API_URL ?? "https://backend-beryl-three-54.vercel.app") +
-                "?",
-            );
-          }
+      } else {
+        setError(
+          "Could not reach the server. Is the backend running at " +
+            (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000") +
+            "?",
+        );
+      }
     } finally {
       setLoading(false);
     }

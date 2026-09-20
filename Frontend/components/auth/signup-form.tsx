@@ -32,7 +32,7 @@ export function SignupForm() {
       } else {
         setError(
           "Could not reach the server. Is the backend running at " +
-            (process.env.NEXT_PUBLIC_API_URL ?? "https://backend-beryl-three-54.vercel.app") +
+            (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000") +
             "?",
         );
       }
